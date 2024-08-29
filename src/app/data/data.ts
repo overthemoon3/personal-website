@@ -10,7 +10,7 @@ export const navs = [
     },
     {
         id: 2, 
-        name: 'About / Contact',
+        name: 'About',
         target: 'about',
         icon: 'bx bx-user',
         active: false,
@@ -20,6 +20,18 @@ export const navs = [
         name: 'Work In Progress',
         target: 'wip',
         icon: 'bi bi-tools',
+        active: false
+    },
+    {
+        id: 4,
+        target: 'linkedin',
+        icon: 'bi bi-linkedin',
+        active: false
+    },
+    {
+        id: 5,
+        target: 'github',
+        icon: 'bi bi-github',
         active: false
     },
 
