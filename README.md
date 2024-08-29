@@ -1,3 +1,38 @@
+# My Notes: 
+
+node_modules contains all 3rd party libraries and dependencies so you don't need to worry about it 
+
+public folder is how we shit out code into the browser (whatever that means)
+    this is where images, static files go 
+
+src folder contains all of the source code files 
+    layout.tsx has typical html tags 
+
+    page.tsx: everything must eventually be compiled here 
+
+dependencies I installed: (this will show up in package.json)
+default ones are react, react-dom, and next , also typescript and other dev dependencies listed separately. 
+
+'npm i (install) bootstrap bootstrap-icons (icon) boxicons glightbox react-countup react-typed (automatic typing effect) swiper'
+
+## step 1: install packages is DONE
+
+* next steps: import bootstrap icons, bootstrap, glightbox
+* rename project 
+*   inter -> raleway
+
+# Tip: try to find and make detailed components and subcomponents 
+
+- using the api folder to load up the backend 
+- using components to store code for all of the subcomponents 
+- using data for all the static data
+in another project, you can use the api to connect to a genuine database like SQL or mongoDB, dynamoDB, firebase 
+- sections folder will hold all... sections lol
+
+## step 2: make preparations is DONE 
+
+# Next.js's instructions: 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
