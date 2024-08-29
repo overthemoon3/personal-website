@@ -10,24 +10,17 @@ export const navs = [
     },
     {
         id: 2, 
-        name: 'About',
+        name: 'About / Contact',
         target: 'about',
         icon: 'bx bx-user',
         active: false,
     }, 
     {
         id: 3,
-        name: 'Resume',
-        target: 'resume',
-        icon: 'bx bx-file-blank',
+        name: 'Work In Progress',
+        target: 'wip',
+        icon: 'bi bi-tools',
         active: false
     },
-    {
-        id: 4,
-        name: 'Portfolio',
-        target: 'portfolio',
-        icon: 'bx bx-book-content',
-        active: false
-    }
 
 ]
