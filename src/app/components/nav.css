@@ -53,8 +53,8 @@ setting up alignment and position
     font-size: 30px;
 }
 
-.nav-menu a.expanded,
-.nav-menu a.expanded:focus {
+.nav-menu a.expandable.active,
+.nav-menu a.expandable:focus {
     width: auto;
     padding: 10px 20px;
     border-radius: 25px;
@@ -63,16 +63,33 @@ setting up alignment and position
     transition: all 0.3s ease;
 }
 
-.nav-menu a.expanded span,
+.nav-menu a.expandedable.active span,
 .nav-menu a.expanded:focus span {
     display: inline;
 }
 
+/*
 .nav-menu a span,
 .nav-menu a:focus span {
     padding: 0 5px 0 7px;
     color: #45505b;
     display: none;
+}
+    */
+
+.nav-menu a.expandable:hover {
+    background: #0563bb;
+    color: #fff;
+    width: auto; 
+    padding: 10px 20px; 
+    border-radius: 25px;
+    transition: all 0.3s ease; 
+}
+
+.nav-menu a.no-expand:hover {
+    background: #0563bb;
+    color: #fff;
+    transition: 0.3s ease;
 }
 
 @media (min-width: 992px) {
