@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: transparent; 
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    color: #3a1e19; 
+    text-decoration: none;
+    transition: transform 0.2s, color 0.2s;
+  }
+  
+  .icon:hover {
+    color: #d99683; 
+    transform: scale(1.1); 
+  }

@@ -4,14 +4,19 @@
 
 // functional component: 
 import React from 'react';
-import './header.css'
+import './Header.module.css'
 import Nav from './Nav'
 
-export default function Header() {
-    return(
-        <header id='header' className='d-flex flex-column justify-content-center'>
+const Header: React.FC = () => {
+    return (
+        <header>
             <Nav />
+            <section>
+            <p>I'm Sakshi, a third year Computer Science student at the University of California - Santa Cruz. I work great in teams and can be counted on to consistently deliver above and beyond.</p>
+            </section>            
         </header>
-                                    // bootstrap thing
-    )
-}
+    );
+};
+
+export default Header; 
+
