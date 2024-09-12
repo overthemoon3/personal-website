@@ -18,8 +18,9 @@
   }
 
 .font_text{
-  font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
+  padding-left: 10em;
+  font-size: larger;
   font-weight: 200;
   font-style: normal;
 }
