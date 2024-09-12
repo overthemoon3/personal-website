@@ -1,14 +1,28 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 body {
   font-family: 'Open Sans', sans-serif;
+  
   color: #782929;
   
   background-color: #FFBF9A;
+
   
 
   /*overflow-x: hidden;*/
 }
+
+/* <uniquifier>: Use a unique and descriptive class name */
+
+.josephine {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
 
 a {
   color: #782929;

@@ -1,16 +1,21 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    background-color: #f5c2a0; 
+  gap: 5rem;
+    padding: 5rem;
+  display: flex;
   }
   
   .section {
-    text-align: center;
+    text-align: left;
     max-width: 800px;
-    padding: 2rem;
     font-size: 1.2rem;
     line-height: 1.6;
     color: #3a1e19; 
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Push items to the ends */
+    width: 100%; /* Ensure the container spans the full width */
   }
