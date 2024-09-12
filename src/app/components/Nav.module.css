@@ -1,19 +1,25 @@
 .nav {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding: 1rem;
+    justify-content: right;
+    gap: 5rem;
+    padding: 5rem;
     background-color: transparent; 
   }
   
   .icon {
     font-size: 1.5rem;
-    color: #3a1e19; 
+    color: #BB6851; 
     text-decoration: none;
     transition: transform 0.2s, color 0.2s;
+    font-size: 50px;
   }
   
   .icon:hover {
-    color: #d99683; 
+    color: #470101; 
+    transform: scale(1.5); 
+  }
+
+  .active {
+    color: #782929; 
     transform: scale(1.1); 
   }

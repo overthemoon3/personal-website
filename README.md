@@ -1,12 +1,7 @@
 # Goals: 
 
 The goal of this project is not to show off my calibur as a web developer, it's mainly to get a solid understanding of the subject and to be able to find my way around web app code if the need arises. 
-Since I know nothing about next.js or react or SQL or how to make a fully functional web app, I will be following along with the tutorial at first and getting my bearings around the kind of workflow I should maintain when I'm building my own web app. 
-Once I'm done with this, I'll gradually restructure the frameworks already established to suit my creative vision. 
-You might be wondering, why would I follow a tutorial for making my portfolio website? I mainly wanted a way to quickly show people exactly what I've worked on and a website seemed to be the most accessible option. Perhaps in the future, I will make this a lot more intricate but for the basic purpose of sharing my purpose and skills, I think this is a solid start!  
-
-The tutorial I'm following: https://youtu.be/hgdIiJ2pJno?si=mV_ZpExAp6n78vRs
-
+Since I know nothing about next.js or react or SQL or how to make a fully functional web app, I will be chat-gpt-ing the basic framework and then adding things to it as I see fit. 
 
 # My Notes: 
 
