@@ -1,10 +1,3 @@
-// importing icons
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import 'boxicons/css/boxicons.css';
-
-// import bootstrap itself
-import 'bootstrap/dist/css/bootstrap.css';
-
 // import glightbox
 import 'glightbox/dist/css/glightbox.css';
 
@@ -12,7 +5,6 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 
-const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Personal Portfolio Next.js",
@@ -28,13 +20,13 @@ import Tabs from './components/Tabs';
 const Home: React.FC = () => {
   return (
     <html>
-    <body>
-    <div>
-      <Header />
-      <Downloads />
-      <Tabs />
-    </div>
-    </body>
+      <body>
+        <div>
+          <Header />
+          <Downloads />
+          <Tabs />
+        </div>
+      </body>
     </html>
   );
 };

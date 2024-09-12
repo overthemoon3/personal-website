@@ -1,58 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
-  font-family: 'Open Sans', sans-serif;
-  
-  color: #782929;
-  
   background-color: #FFBF9A;
-
-  
-
-  /*overflow-x: hidden;*/
-}
-
-/* <uniquifier>: Use a unique and descriptive class name */
-
-.josephine {
   font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
 }
 
-
-
-
-a {
-  color: #782929;
-  text-decoration: none;
-  cursor: pointer;
+h2 {
+  font-family: "Roboto Mono", monospace;
 }
 
-a:hover {
-  color: #F87070 ;
-  text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Raleway', sans-serif;
-}
-
-body::-webkit-scrollbar {
-  display: none;
-}
-
-/*
-Sections! 
-*/
-
-section {
-  padding: 60px 0;
-  overflow: hidden; 
+p {
+  font-family: "Josefin Sans", sans-serif;
 }

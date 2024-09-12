@@ -1,21 +1,25 @@
-.header {
-  gap: 5rem;
-    padding: 5rem;
-  display: flex;
-  }
+
   
-  .section {
-    text-align: left;
-    max-width: 800px;
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #3a1e19; 
+.section {
+  text-align: left;
+  max-width: 800px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #470101; 
+}
+
+.container {
+  padding: 5rem;
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: space-between; 
+  width: 100%; 
   }
 
-  .container {
-    display: flex;
-    flex-direction: row; 
-    align-items: center; /* Vertically align items */
-    justify-content: space-between; /* Push items to the ends */
-    width: 100%; /* Ensure the container spans the full width */
-  }
+.font_text{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
