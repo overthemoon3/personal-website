@@ -1,13 +1,13 @@
 .downloads {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin: 2rem 0;
+    justify-content: left;
+    padding-left: 20rem;
   }
   
   .link {
-    font-size: 1.2rem;
-    color: #3a1e19; 
+    display: inline-flex;
+    font-size: 2rem;
+    color: #BB6851; 
     text-decoration: none;
     font-weight: bold;
     border-bottom: 2px solid transparent;
@@ -15,6 +15,14 @@
   }
   
   .link:hover {
-    color: #d99683;
-    border-bottom-color: #d99683; 
+    color: #470101;
+    border-bottom-color: #470101; 
   }
+
+  .icon {
+    font-size: 0.8rem;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 35px;
+  }
+  
