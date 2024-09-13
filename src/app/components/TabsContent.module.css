@@ -13,6 +13,17 @@
     width: 100%; 
     }
 
+    .titleContainer {
+      display: flex;
+      align-items: center; /* Vertically center the logo and title */
+    }
+    
+    .projectLogo {
+      width: 40px; /* Adjust the size as needed */
+      aspect-ratio: auto;
+      margin-right: 10px; /* Space between the logo and title */
+    }
+
   .section {
     margin-bottom: 1.5rem;
     display: flex;
@@ -61,7 +72,9 @@
   font-weight: 100;
   font-size: 1rem;
   margin-bottom: 0.5rem;
-  align-items: right;
+  padding: 0.2rem 0.5rem; 
+  display: inline-block; 
+  border-radius: 4px;
 }
 
 .links {

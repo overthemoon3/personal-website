@@ -21,13 +21,42 @@ const Projects: React.FC = () => {
         </section>
 
 
+        <section className={styles.section}>
+            <div className={styles.content_left}>
+                <img src="/dolph.jpg" alt="Sluggers - UCSC E-Marketplace Website" className={styles.projectImage} />
+            </div>
+
+            <div className={styles.content_right}>     
+                <h2 className={styles.h2}>IRC inspired Chatroom - CLI application</h2>
+                <div className={styles.container}>
+                    <h3 className={styles.normal}>Summer 2024</h3>
+                    <h4 className={styles.normal}>&#123;Python, socket programming&#125;</h4>
+                </div> 
+                <p>
+                Started as a way for me to talk to friends through the CLI. 
+Taught me the importance of documentation 
+Currently only works on my local machine, next goal is to sync it up to an IP as a server!
+                </p>
+                <div className={styles.links}>
+                    <a href="https://github.com/overthemoon3/chatroom" target="_blank" rel="noopener noreferrer" className={styles.link}>
+                        GitHub Repo
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
 
         <section className={styles.section}>
             <div className={styles.content_left}>
                 <img src="/project_sluggers1.jpg" alt="Sluggers - UCSC E-Marketplace Website" className={styles.projectImage} />
             </div>
+
             <div className={styles.content_right}>
-                <h2 className={styles.h2}>Sluggers - UCSC E-Marketplace Website</h2>
+                <div className={styles.titleContainer}>
+                    <img src="/projects_sluggers_icon1.png" alt="Sluggers Logo" className={styles.projectLogo} />
+                    <h2 className={styles.h2}>Sluggers - UCSC E-Marketplace Website</h2>
+                </div>
                 <div className={styles.container}>
                     <h3 className={styles.winner}>Cruzhacks2023 Sustainability Award Winner</h3>
                     <h4 className={styles.normal}>&#123;HTML, CSS, JS, Google Firebase&#125;</h4>
