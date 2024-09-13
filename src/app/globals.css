@@ -12,10 +12,17 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-h2, a {
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+  font-style: italic;
+}
+
+a {
   font-family: "Roboto Mono", monospace;
 }
 
 p {
   font-family: "Josefin Sans", sans-serif;
+  color: #470101
 }
