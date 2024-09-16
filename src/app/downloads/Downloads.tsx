@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import styles from './Downloads.module.css';
 import { FiDownload } from "react-icons/fi";

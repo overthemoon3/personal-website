@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import styles from './TabsContent.module.css';
 import Projects from '../projects/Projects';

@@ -1,3 +1,4 @@
+"use client";
 // .ts is for typescript
 // but because it's a react project, we're
 // gonna say .tsx. 
