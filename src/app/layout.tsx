@@ -14,8 +14,9 @@ export const metadata: Metadata = {
 
 import React from 'react';
 import Header from './components/Header';
-import Downloads from './components/Downloads';
+import Downloads from './downloads/Downloads';
 import Tabs from './components/Tabs';
+
 
 const Home: React.FC = () => {
   return (

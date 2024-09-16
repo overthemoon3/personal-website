@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './TabsContent.module.css';
+import styles from '../components/TabsContent.module.css';
 
 const Projects: React.FC = () => {
   return (

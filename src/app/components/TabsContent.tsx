@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './TabsContent.module.css';
-import Projects from './Projects';
+import Projects from '../projects/Projects';
 // import Accolades from './Accolades';
 // import WorkInProgress from './WorkInProgress';
 
