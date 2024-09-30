@@ -1,4 +1,3 @@
-"use client";
 // import glightbox
 import 'glightbox/dist/css/glightbox.css';
 
